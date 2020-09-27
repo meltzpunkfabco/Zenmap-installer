@@ -16,7 +16,7 @@ else
 	else
 		echo "Installing Alien..."
 		echo ""
-		apt-get install alien	
+		dnf install alien	
 	fi
 	
 	wget https://nmap.org/dist/zenmap-7.80-1.noarch.rpm
